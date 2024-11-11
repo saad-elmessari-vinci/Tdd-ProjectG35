@@ -1,9 +1,7 @@
 export class Main {
+    //Y ==> lamp is on (color is yellow) , O==> lamp is off
   singleMinutesRow(minutes) {
-    if (minutes === 1) return "YOOO";
-
-    if (minutes === 2) return "YYOO";
-
-    return "OOOO";
+    const numberOfYellowLamps = minutes % 5; 
+    return "Y".repeat(numberOfYellowLamps) + "O".repeat(4 - numberOfYellowLamps);
   }
 }
