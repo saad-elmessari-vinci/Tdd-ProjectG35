@@ -41,7 +41,9 @@ describe("SingleMinutesRow function should return the answer ", function () {
 
   it("Should return 'OOOO' for 32 minutes", function () {
     const result = main.singleMinutesRow(35);
-    
+
     expect(result).toBe("OOOO");
   });
 });
+
+

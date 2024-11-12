@@ -6,4 +6,6 @@ export class Main {
       "Y".repeat(numberOfYellowLamps) + "O".repeat(4 - numberOfYellowLamps)
     );
   }
+
+  
 }
